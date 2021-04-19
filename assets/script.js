@@ -91,7 +91,7 @@ function generatePassword() {
     result[i] = myArray2;
   }
 
-  return result.join('_');
+  return result.join('');
 }
 
 let generateBtn = document.querySelector("#generate");
