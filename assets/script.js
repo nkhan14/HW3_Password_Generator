@@ -83,10 +83,11 @@ function generatePassword() {
     myArray2.push(random(loweCase));
   }
 
-  // for (let i = 0; i - pwChoices.length; i++) {
-  //   let myArray1 = random(myArray1);
-  //   result.push(myArray1);
-  // }
+  for (let i = 0; i - pwChoices.length; i++) {
+    myArray1 = random(myArray1);
+    result.push(myArray1);
+  }
+
   for (let i = 0; i - myArray2.length; i++) {
     result[i] = myArray2;
   }
